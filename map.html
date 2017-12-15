@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <script src="jquery-3.1.1.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDacJcoyPCr-jdlP9HK93h3YKNyf710J0"></script>
+        <script src="map.js"></script>
+    </head>
+    <style media="screen">
+        body {margin: 0;}
+    </style>
+    <body>
+        <div style="position: absolute; z-index: 1;">
+            <button data-target="places">Places</button> - <button data-target="test">Test</button> - <button data-target="asd">Test</button>
+            <br>
+            <div><a href="#">Marker 1</a> - <a href="#">Marker 2</a> - <a href="#">Marker 3</a> - <a href="#">Marker 4</a></div>
+        </div>
+
+        <div class="google-map-section">
+            <div class="container-fluid">
+                <div class="google-map plr-185">
+                    <div style="width: 100vw; height: 100vh;" id="googleMap"></div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
